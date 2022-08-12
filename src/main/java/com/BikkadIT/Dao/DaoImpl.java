@@ -60,7 +60,7 @@ public class DaoImpl implements DaoI{
 	}
 
 	@Override
-	public Employee loginUserDao(Employee employee) {
+	public Employee loginEmployee(Employee employee) {
 		Session session = sf.openSession();
 		
 		session.beginTransaction();

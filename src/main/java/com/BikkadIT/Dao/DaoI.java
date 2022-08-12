@@ -12,7 +12,7 @@ public interface DaoI {
 	
 	public List<Employee> getAllEmployee();
 	
-	public Employee loginUserDao(Employee employee); 
+	public Employee loginEmployee(Employee employee); 
 	
 	public Employee deleteEmpById(int id);
 	
