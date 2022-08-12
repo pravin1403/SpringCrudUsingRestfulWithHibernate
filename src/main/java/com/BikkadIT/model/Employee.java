@@ -14,6 +14,9 @@ public class Employee {
 	private String empEmail;
 	
 	private Integer empAge;
+	
+	private String empPwd;
+	
 
 	public Integer getEmpId() {
 		return empId;
@@ -54,12 +57,25 @@ public class Employee {
 	public void setEmpAge(Integer empAge) {
 		this.empAge = empAge;
 	}
+	
+	
+	
+
+	public String getEmpPwd() {
+		return empPwd;
+	}
+
+	public void setEmpPwd(String empPwd) {
+		this.empPwd = empPwd;
+	}
 
 	@Override
 	public String toString() {
 		return "Employee [empId=" + empId + ", empName=" + empName + ", empAddress=" + empAddress + ", empEmail="
-				+ empEmail + ", empAge=" + empAge + "]";
+				+ empEmail + ", empAge=" + empAge + ", empPwd=" + empPwd + "]";
 	}
+
+	
 	
 	
 	
